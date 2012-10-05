@@ -1,0 +1,8 @@
+= simple_form_for(@basic, :url => basic_update_path(@basic), :method => :post, :validate => true) do |f|
+  .form-inputs
+    = f.input :waiver_of_premium, required: true, :collection => ["Yes", "No"], :prompt => "Select waiver of premium..."
+    = f.input :client_number, required: true, validate: true
+  .hr
+  .form-actions
+    %p  
+      = f.button :submit, "Save", id: 'save-button'

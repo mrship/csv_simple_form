@@ -1,0 +1,2 @@
+== CSV / Simple Form integration test
+The app shows how the inclusion filters don't get run with an :in clause
