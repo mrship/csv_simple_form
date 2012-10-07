@@ -8,4 +8,8 @@ class BasicController < ApplicationController
     @basic.client_side_override = true
     render
   end
+  
+  def update
+    redirect_to :root
+  end
 end
