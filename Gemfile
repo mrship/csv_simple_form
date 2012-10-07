@@ -22,10 +22,9 @@ end
 
 gem 'jquery-rails'
 
-gem 'simple_form'
-gem 'client_side_validations', git: "git://github.com/bcardarella/client_side_validations.git", branch: "3-2-stable"
-gem 'client_side_validations-simple_form'
-gem 'phrase', git: "git://github.com/phrase/phrase.git"
+gem 'simple_form', "=2.0.3"
+gem 'client_side_validations', git: "git://github.com/bcardarella/client_side_validations.git"
+gem 'client_side_validations-simple_form', git: "git://github.com/dockyard/client_side_validations-simple_form.git"
 gem 'haml'
 gem 'thin'
 
