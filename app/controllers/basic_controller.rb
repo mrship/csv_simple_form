@@ -10,6 +10,7 @@ class BasicController < ApplicationController
   end
   
   def update
-    redirect_to :root
+    @basic = Basic.new(params[:basic])
+    render
   end
 end
